@@ -1,28 +1,28 @@
 class Gitflock < Formula
   desc "Manage multiple git repositories at once"
   homepage "https://git.fluidware.it/utils/gitflock"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.4.0/gitflock-darwin-arm64.tar.gz"
-      sha256 "10d7a45319c4e14212b432525865c827c75fac02c919911ded5417d5c9f17391"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-darwin-arm64.tar.gz"
+      sha256 "9001d70b5778895e55d9dcec888fd08c4aa428040b939f2c61e943cacf3c9b54"
     end
     on_intel do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.4.0/gitflock-darwin-amd64.tar.gz"
-      sha256 "475d346a466a4797f4edffd56ae2da5b2ecdb09c2e5bcf2763189096c6c1a5d2"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-darwin-amd64.tar.gz"
+      sha256 "b27b783bad37e62e14d8c6a8e23f631e9948002705e77de8c30732f98564f0f8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.4.0/gitflock-linux-arm64.tar.gz"
-      sha256 "ad242b78de5088b128ddae7c7774259d3cd71086073463954a78fbdc2d62e726"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-linux-arm64.tar.gz"
+      sha256 "e219e10eb2188abda87c06503596ed36fb421ae4f40fb74bf8b2538b7a276bdb"
     end
     on_intel do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.4.0/gitflock-linux-amd64.tar.gz"
-      sha256 "987f4f4f1981f7dd543e1ca9b6e8f7a5d3d34eb3c0f89ce612819e7de7a44ab7"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-linux-amd64.tar.gz"
+      sha256 "29fd82e4af544b1a73d898a177063e6c3229a1053823068b3bb1d4cefaa49156"
     end
   end
 
