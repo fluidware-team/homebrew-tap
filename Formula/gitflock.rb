@@ -1,28 +1,28 @@
 class Gitflock < Formula
   desc "Manage multiple git repositories at once"
   homepage "https://git.fluidware.it/utils/gitflock"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-darwin-arm64.tar.gz"
-      sha256 "9001d70b5778895e55d9dcec888fd08c4aa428040b939f2c61e943cacf3c9b54"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.1/gitflock-darwin-arm64.tar.gz"
+      sha256 "f45c8b3593b9509e11013252535a37df270b891e782eb7371e4e8d6e157cea18"
     end
     on_intel do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-darwin-amd64.tar.gz"
-      sha256 "b27b783bad37e62e14d8c6a8e23f631e9948002705e77de8c30732f98564f0f8"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.1/gitflock-darwin-amd64.tar.gz"
+      sha256 "d99ac4b94cfae069ca787f6fee44c845153dda694464c7f24cdc5babad20d604"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-linux-arm64.tar.gz"
-      sha256 "e219e10eb2188abda87c06503596ed36fb421ae4f40fb74bf8b2538b7a276bdb"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.1/gitflock-linux-arm64.tar.gz"
+      sha256 "820fb96043d494537c2e61fe8ea8f3550b19f61041b2b4f06f0180a7bfcf23a7"
     end
     on_intel do
-      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.0/gitflock-linux-amd64.tar.gz"
-      sha256 "29fd82e4af544b1a73d898a177063e6c3229a1053823068b3bb1d4cefaa49156"
+      url "https://git.fluidware.it/api/v4/projects/utils%2Fgitflock/packages/generic/gitflock/v0.5.1/gitflock-linux-amd64.tar.gz"
+      sha256 "c1fda1096bb14189932778ff5fd836b81b100bbcb03ef7d3d6520da56682aac1"
     end
   end
 
